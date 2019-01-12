@@ -1,5 +1,8 @@
 ## 《基于redis分布式锁实现秒杀》——总结
 本文章参考简书上：
+
+[TOC]
+
 [基于redis分布式锁实现“秒杀”](https://www.jianshu.com/p/7a0f24e3d90f)
 > 秒杀：
     1. 从业务角度来说，是用户对同一资源进行争抢
@@ -390,4 +393,5 @@ public String secKill() {
         return "aaaa";
     }
 ```
-本文是参考理解《基于redis分布式锁实现秒杀》一文进行的总结以及调整，在此感谢简书作者：lsfire，感谢分享秒杀业务类的实现思路和方法。
+本文是参考理解《基于redis分布式锁实现秒杀》一文进行的总结以及调整，在此感谢简书作者：lsfire，感谢分享秒杀业务类的实现思路和方法。<br/>
+代码存放在github上：[基于Redis分布式来实现秒杀业务](https://github.com/endyzhu/secKill)
